@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+
+
+a{
+    color: #b1b1b1;
+}
+body{
+    margin: 0;
+    height: 100vh;
+}
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 23px 0px -7px -23px;
+    font-size: 19pt;
+    color: rgba(133, 134, 136, 255);
+    text-align: center;
+}
+.h1-span{
+    font-family: 'Titillium Web', sans-serif;
+    color: #5b4295;
+}
+.caption{
+    margin: 0;
+}
+header{
+    justify-content: space-around;
+    display: flex;
+    height: 253px;
+}
+li{
+    list-style-type:none;
+}
+.background{
+    width: 100%;
+    position: absolute;
+    
+}
+
+/* head FOOTER */
+
+.footer-lan{
+    display: flex; 
+    margin: 14px 0 0 6px;
+  
+}
+.footer-lan-list{
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 9pt;
+        color: rgba(149, 149, 149, 255);
+        text-align: left;
+        padding: 0 11px 0 0;
+}
+
+nav{
+    display: inline-flex;
+  justify-content: flex-end; 
+}
+.nav-bar{
+    display: inline-flex;
+  justify-content: flex-end;
+  margin: 14px 44px 0 0; 
+}
+
+.nav-bar-list{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0 0 0 20px;
+    font-size: 10pt;
+    color: rgba(69, 69, 69, 255);
+    text-align: left;
+
+}
+.nav-bar-buttons{
+    display: inline-flex;
+    justify-content: flex-end; 
+    padding: 11px 0 0 0;
+
+}
+.log-in-tex{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    color: #5b4295;
+    padding: 4px 21px 0 0;
+    
+}
+.log-in-button{
+    width: 14px;
+    height: 9px;
+    margin: 10px 8px 0px 11px;
+}
+
+.sing-up-button{
+    block-size: 29px;
+}
+
+
+/* HEADER */
+.header-conteiner{
+    justify-content: space-between;
+    display: flex;
+    margin: 34px 0px 0px 0;
+    width: 80%;
+    position: absolute;
+    
+}
+.header-right{
+    display: flex; 
+    
+}
+.header-left{
+    margin: 18px 51px 0 0;
+    display: flex; 
+}
+
+/* main */
+
+.section-create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -71px 0 0 0;
+}
+
+.Secure-Email{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 37pt;
+    color: rgba(69, 69, 69, 255);
+    text-align: center;
+    margin: 55px 0 0 0;
+
+}
+.Based-in{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22pt;
+    color: rgba(69, 69, 69, 255);
+    text-align: center;
+    margin: -6px 0 0 0;
+}
+.Based-in-span{
+    color: #fc6b6c;
+}
+
+
+
+.main-article{
+    display: flex;
+  flex-direction: column;
+    position: relative;
+  align-items: center;
+
+
+}
+
+.sectin-create-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 48px 0 0 0;
+}
+
+.Create-account-button{
+    block-size: 52px;
+    padding: 0 13px 8px 0;
+
+}
+
+.apple-store-button {
+    block-size: 40px;
+    padding: 0px 0 12px 0;
+}
+
+.android-store-button  {
+    block-size: 40px;
+    padding: 0 5px 15px 14px;
+}
+
+.section-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 101%;
+    padding: 269px 0 64px 0
+}
+
+.text-img {
+    display: flex;
+}
+.section-info-first{
+    margin: -25px 0 0 299px;
+}
+
+.info-first-text{
+    padding: 0 16px 0;
+}
+
+.section-info-first-img{
+    block-size: 55px;
+    margin: 0px -7px 9px -9px;
+}
+
+.section-info-description-text-first{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 8pt;
+    color: rgba(149, 147, 147, 255);
+    text-align: left;
+    width: 100%;
+
+}
+
+.section-info-seсond{
+    margin: -12px 0 0 51px;
+    padding: 0 1px 0 19px;
+}
+
+.section-info-third{
+    margin: -6px 201px 0 -0;
+}
+
+.section-info-main-text{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17pt;
+    color: rgba(85, 85, 85, 255);
+    text-align: left;
+    margin: 0;
+}
+
+
+.section-info-premain-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10pt;
+    color: rgba(85, 85, 85, 255);
+    text-align: right;
+    margin: -4px 1px 0 0;
+    text-align: left;
+}
+
+.section-info-description-text{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 9pt;
+    color: rgba(85, 85, 85, 255);
+    text-align: right;
+}
+.section-info-foot{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 43%;
+}
+
+.section-info-foot-texts{
+
+    padding: 10px 160px 20px 0;
+    width: 500px;
+}
+
+.section-info-foot-button{
+    block-size: 50px;
+}
+
+.section-info-foot-text{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 37pt;
+    color: rgba(83, 83, 83, 255);
+    text-align: right;
+    margin: 0;
+}
+
+.section-info-description-text{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 8pt;
+    color: rgba(149, 147, 147, 255);
+    text-align: left;
+    width: 75%;
+
+}
+.section-info-foot-description-text{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14pt;
+    color: rgba(149, 147, 147, 255);
+    text-align: right;
+    margin: 0;
+    line-height: 1;
+}
+
+
+ /*second-article*/
+
+
+.second-article{
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+
+.second-article-img{
+    margin: 25px 0 18px 0;
+    width: 55%;
+}
+
+.Boston-Herald-speaks{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    margin: 0 0 0 360px;
+    font-size: 15pt;
+    color: rgba(16, 16, 16, 255);
+    text-align: left;
+    font-style: italic;
+}
+.Boston-Herald-comment{
+    margin: -4px 0 0 0;
+    font-size: 11pt
+}
+
+
+.device-download{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.device-download-text-buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 17px;
+
+}
+.device-download-text{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 42%;
+    margin: 54px 0 0 -45px;
+
+}
+
+.device-download-text-first{
+    font-size: 22pt;
+    color: rgba(83, 83, 83, 255);
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.device-download-text-second{
+font-size: 10pt;
+color: rgba(149, 147, 147, 255);
+text-align: right;
+margin-top: 4px;
+}
+.device-img{
+    block-size: 525px;
+    margin: -128px 0 0 544px;
+}
+
+.download-button-apple{
+    block-size: 45px;
+    padding: 5px;
+}
+.download-button-android{
+    block-size: 45px;
+    padding: 5px;
+}
+
+
+/*section class="support */
+
+.support{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-text-first{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22pt;
+    color: rgba(83, 83, 83, 255);
+    text-align: center;
+    margin: 40px 0 -33px 0;
+}
+.support-text-second {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18pt;
+    color: rgba(83, 83, 83, 255);
+    text-align: center;
+    margin-bottom: 21px;
+}
+.support-button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.support-button-img{
+    block-size: 70px;
+    padding: 0px 9px 0 10px;
+}
+
+ /*section class="support-second"> */
+
+
+.support-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 38px 171px 0 0;
+}
+
+
+.support-text-third{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 9pt;
+    color: rgba(122, 122, 122, 255);
+    padding: 0px 18px 0 0;
+    margin: 17px 0 -11px 0;
+}
+
+.support-second-img-container{
+    padding: 15px 0 0 0;
+    block-size: 61px
+}
+.support-second-img{
+    block-size: 72px;
+    margin: -6px -18px 0 252px;
+}
+
+
+/* FOOTER */
+
+.pre-footer{
+    display: flex;
+    margin: 122px 0 0 144px;
+    width: 74%;
+}
+.pre-footer-right{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    font-size: 9pt;
+    color: rgba(92, 92, 92, 255);
+    text-align: left;
+    margin: 0 0 0 79px;
+
+    }
+.pre-footer-left{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    font-size: 9pt;
+    color: rgba(92, 92, 92, 255);
+    text-align: right;
+    margin: 0 0 0 186px;
+}
+
+.pre-footer-ul{
+    margin: 18px 0 0 -7px;
+}
+.Legal
+{
+    padding: 0 0 0 51px;
+}
+.NeutronMail{
+    padding: 0 0 0 42px;
+}
+.main-p-pre-footer {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 9px 3px 0 0
+}
+.pre-footer{
+    font-weight: bold;
+    font-size: 8pt;
+}
+.general{
+    margin: 8px 0 0 -7px;
+}
+.media{
+    margin: 0px 0 0 -7px;
+}
+
+.security{
+    margin: 0px 0 0 -7px;
+}
+.for-support{
+    margin: 18px 0 0 -7px;
+    width: 100%
+}
+
+footer{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 8pt;
+    color: rgba(92, 92, 92, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 42px 0 0 200px;
+   
+    
+}
+
+
+
+.nav-bar-footer{
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 14px 44px 0 -41px;
+    
+}
+.footer-list {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 9pt;
+    color: rgba(149, 149, 149, 255);
+    text-align: left;
+    padding: 0px 20px 0 0;
+}
+
+@media only screen and (max-width: 411px) {
+    header {
+        display: flex;
+        height: 253px;
+        width: auto;
+    }
+    .header-conteiner {
+        margin: 0;
+        width: 102%;
+        position: absolute;
+    }
+
+    .support-text-third {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 9pt;
+        color: rgba(122, 122, 122, 255);
+        padding: 0 373px 0 0;
+        margin: 0 0 -8px 0;
+    }
+
+    .support {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 89%;
+        margin: 53px;
+    }
+
+.header-left {
+
+    width: 204%;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 94%;
+}
+.nav-bar {
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 17px 5px 0 0;
+}
+
+.Secure-Email {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28pt;
+    color: rgba(69, 69, 69, 255);
+    text-align: center;
+    margin: 101px 0 0 0;
+}
+
+
+main {
+    width: auto;
+}
+
+.main-article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: auto;
+}
+.section-info {
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section-info-first {
+margin: 27px 159px;
+}
+
+.section-info-seсond {
+    margin: 27px 133px;
+}
+
+.section-info-third {
+    margin: 22px 151px;
+}
+
+.device-download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93%;
+}
+
+.section-info-foot-texts {
+    padding: 0 0 22px 0;
+    width: 145%;
+}
+.second-article {
+
+    flex-direction: column;
+}
+.second-article-img {
+    margin: 25px 0 18px 0;
+    width: 0;
+}
+.device-img {
+    block-size: 525px;
+    margin: -210px 0 0 544px;
+    width: 0;
+}
+.support-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 28px 93px 0 0;
+}
+
+.support-second-img {
+    block-size: 58px;
+    margin: -5px 125px 0 252px;
+}
+.support-text-third {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 9pt;
+    color: rgba(122, 122, 122, 255);
+    padding: 0px 154px 0 0;
+    margin: 17px 0 -2px 0;
+}
+
+.pre-footer {
+    visibility: hidden;
+    position: absolute;
+}
+.pre-footer-left {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    font-size: 7pt;
+    color: rgba(92, 92, 92, 255);
+    text-align: right;
+    margin: 0 -15px 0 71px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.pre-footer-right {
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    font-size: 8pt;
+    color: rgba(92, 92, 92, 255);
+    text-align: left;
+    margin: 0 0 0 79px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.main-p-pre-footer {
+    font-weight: bold;
+    font-size: 12px;
+    margin: 9px 3px 0 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+footer {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 8pt;
+    color: rgba(92, 92, 92, 255);
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin: 16px 0 0 10px;
+
+}
+
+.Boston-Herald-speaks {
+    display: flex;
+    flex-direction: column;
+    /* width: 26%; */
+    margin: 0 0 0 42px;
+    font-size: 15pt;
+    color: rgba(16, 16, 16, 255);
+    text-align: left;
+    font-style: italic;
+    visibility: hidden;
+    position: absolute;
+}
+}
